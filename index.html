@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/png" href="/IMC/image/Como-Calcular-o-índice-de-Massa-Corporal.png"/>
+
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="box">
+                <!--Título-->
+                <h2>IMC</h2>
+                <!--Inserir Altura-->
+                <label for="altura">Insira sua altura: </label>
+                <input type="number" name="Ialtura" id="altura" class="alturaI" placeholder="Ex: 1.73"><br><br>
+                 <!--Inserir Peso-->
+                <label for="peso" class="labelPeso">Insira seu peso: </label>
+                <input type="number" name="Ipeso" id="peso" class="pesoI" placeholder="Ex: 65.2"><br>
+                <!--Botão-->
+                <button class="bnt" onclick="runImc()">Calcular</button>
+                <!--Resultado-->
+                <div class="result">
+                    <p></p>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
